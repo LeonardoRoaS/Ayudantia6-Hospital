@@ -53,7 +53,6 @@ public class Ayudantia5 {
 
         String [] palabras = {"terremoto", "helado", "cafetera", "celular", "mochila", "edificio", "nube", "insecto", "universidad", "espejo"};
         int azar = random.nextInt(10);
-        System.out.println(palabras[azar]);
         return palabras[azar];
     }
 
